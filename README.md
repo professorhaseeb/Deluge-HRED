@@ -6,7 +6,7 @@ The script will let you install deluge web in few minutes, It isn't bulletproof 
 ### Installation
 Run the script and follow the assistant:
 
-`wget git.io/vpn --no-check-certificate -O delugehred-install.sh && bash delugehred-install.sh`
+`wget git.io/vlhAz --no-check-certificate -O deluge-hred-install.sh && bash deluge-hred-install.sh`
 
 Once it ends, you can visit your IP address with port 8112
 
