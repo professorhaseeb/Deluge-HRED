@@ -116,16 +116,18 @@ else
         echo "enabling deluge-web"
         systemctl enable deluge-web
 fi
+echo "starting deluge in background"
 deluged &
 DELUGECONSOLE_EXIST=$(which deluge-console)
 if [ "$DELUGECONSOLE_EXIST" != "" ]
   then
     echo "deluge-console already exists moving on"
 else
-  killall deluged
   read -p "Do you wish to install deluge-console? " -e -i Y DELUGE_CONSOLE_ASK
   if [ "$DELUGE_CONSOLE_ASK" = "y" ] || [ "$DELUGE_CONSOLE_ASK" = "Y" ]
     then
+      echo "killing all deluged processes to setup deluge-console"
+      killall deluged
       echo "installing deluge-console"
       apt-get install deluge-console
       read -p "Set a username: " -e -i haseeb DC_USER
