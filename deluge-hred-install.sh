@@ -145,3 +145,4 @@ else
 	  exit
   fi
 fi
+killall deluged
