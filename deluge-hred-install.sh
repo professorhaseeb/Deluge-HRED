@@ -146,3 +146,4 @@ else
   fi
 fi
 killall deluged
+deluged &
