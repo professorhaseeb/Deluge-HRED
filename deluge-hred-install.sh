@@ -5,6 +5,7 @@
 #	URL: haseeburrehman.com
 #	LICENSE: Extended WTFPL, view the licence file
 
+# This is a comment.
 # This script was tested on Ubuntu 15.10 and works
 # perfectly on new deluge installation. This isn't
 # bulletproof but it will work if you need to install
