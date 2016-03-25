@@ -15,7 +15,7 @@ Once it ends, you can visit your IP address with port 8112
 Default password for web interface is "deluge"
 
 ####Other
-Added Travis-CI for Testing
+-Added Travis-CI for Testing
 
 ### Licence
 View the LICENSE file for more details
